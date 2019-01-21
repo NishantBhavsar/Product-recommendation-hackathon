@@ -6,9 +6,9 @@ __Mean average precison @ 10 (MAP@10) : 0.0303297169__
 
 [__Private Leader Board Rank__](https://datahack.analyticsvidhya.com/contest/capillary-machine-learning-hackathon/pvt_lb) : __27__
 
-[Analysis and baseline model Notebook](#)
+[Analysis and data Preparation Notebook](https://github.com/NishantBhavsar/Product-recommendation-hackathon/blob/master/code/analysis_%26_data_prep.ipynb)
 
-[Final model Notebook](#)
+[Final model Notebook](https://github.com/NishantBhavsar/Product-recommendation-hackathon/blob/master/code/model.ipynb)
 
 ### Libraries used:
 - pandas 0.22.0
