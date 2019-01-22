@@ -28,6 +28,7 @@ __Mean average precison @ 10 (MAP@10) : 0.0303297169__
 
 ## Solution
 
+- Here in this competition we are only evaluating model based on existing customers.
 - We have more than 25000 users and 3000 products.
 - We have to recommend (predict) top 10 products which a user is going to buy in last two months.
 - Images of all the product and their attributes are given.
@@ -48,5 +49,6 @@ __Mean average precison @ 10 (MAP@10) : 0.0303297169__
  - Now based on cosine similarity between user profile vector and all product vector, find best 10 similar products.
 
 
-- Content based filtering gave higher score than collaborative filtering.
+- Content based filtering gave higher score than user-user collaborative filtering.
+- __This indicated that user are more likly to buy products similar to what they have already bought_.
 - Tried Hybrid approach (Combine collaborative and content based filtering), but it didn't worked, so I have used content based filtering model as a final model.
