@@ -50,5 +50,5 @@ __Mean average precison @ 10 (MAP@10) : 0.0303297169__
 
 
 - Content based filtering gave higher score than user-user collaborative filtering.
-- __This indicated that user are more likly to buy products similar to what they have already bought__.
+- __This indicates that user are more likely to buy products similar to what they have already bought__.
 - Tried Hybrid approach (Combine collaborative and content based filtering), but it didn't worked, so I have used content based filtering model as a final model.
